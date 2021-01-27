@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Family from './Family';
-import Compteur from './Compteur';
+import Test from './demos/Test';
+import JeuxOlympiques from './demos/JeuxOlympiques';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <JeuxOlympiques />
   </React.StrictMode>,
   document.getElementById('root'),
 );
